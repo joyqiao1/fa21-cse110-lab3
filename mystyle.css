@@ -1,11 +1,30 @@
 body {
-    background-color: rgb(79, 99, 73);
+    background-color: #A1BAC2;
   }
   
-  h1 {
-    color: rgb(151, 142, 12);
+h1 {
+    color: darkslategray;
     margin-left: 400px;
   }
-  h2 {
-    color: rgb(138, 90, 123)
+h2 {
+    color: rgb(114, 59, 67);
+  }
+h3 {
+      color:rgb(114, 59, 67);
+  }
+h4 {
+      color: rgb(114, 59, 67);
+  }
+p {
+      color: hsla(318, 24%, 48%, 0.767);
+      font-size: 16px;
+      line-height: 2em;
+  }
+  div {
+    font-size: 30px;
+    border: 1px solid black;
+  }
+  
+  span {
+    font-size: 0.5em;
   }
