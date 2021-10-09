@@ -121,9 +121,9 @@ div.flex-container {
   div > p {
     background-color: #A1BAC2;
   }
-  div + p {
+  h2 + div {
     background-color: #A1BAC2;
   }
-  div ~ p{
+  h2 ~ ol{
     background-color: #A1BAC2;
   }
