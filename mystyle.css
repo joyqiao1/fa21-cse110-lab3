@@ -1,10 +1,14 @@
+
 body {
+    color:darkslategray;
+    text-align: left;
     background-color: #A1BAC2;
+    font-size: 0.5cm;
   }
-  
 h1 {
     color: darkslategray;
-    margin-left: 400px;
+    text-align: center;
+    font-size: 15mm;
   }
 h2 {
     color: rgb(114, 59, 67);
@@ -17,14 +21,79 @@ h4 {
   }
 p {
       color: hsla(318, 24%, 48%, 0.767);
-      font-size: 16px;
+      font-size: 2ex;
       line-height: 2em;
   }
-  div {
-    font-size: 30px;
-    border: 1px solid black;
+.p1 {
+    font-family: "Times New Roman", Times, serif;
   }
   
-  span {
-    font-size: 0.5em;
+div {
+    font-size: 1.5ch;
+    border: 1px solid black;
+    color: darkslategray;
+    margin-top: 2px;
+    margin: 2px 2px 2px 2px;
+    padding-top: 2px;
+    padding: bottom 2cm;
+    display: inline-block;
+    position: static;
+  }
+  body {
+    background-color: pink;
+  }
+  
+  @media screen and (min-width: 500px) {
+    body {
+      background-color: #A1BAC2;
+    }
+  }
+span {
+    font-size: 1.5em;
+    position: relative;
+  }
+.box {
+    background-color: #567895;
+    border-width: 2px solid; 
+    border-color: #0b385f;
+    border-style: dashed;
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+    color: rgb(252, 248, 249);
+    border-radius: 2px;
+  } 
+li {
+      display: block;
+  }
+img {
+      height: 500px;
+      width: 700px;
+      max-width: 700px;
+      min-width: 650px;
+  }
+.flex-container {
+    display: inline-block;
+    background-color: #081016;
+}
+.flex-container > div {
+    background-color: #f6fafd;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+  }
+  .grid-container {
+    background-color: #A1BAC2;
+    position: relative;
+    display: grid;
+    grid-template-columns: 80px 80px;
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+    padding: 5px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 0;
+    font-size: 20px;
+    text-align: center;
   }
